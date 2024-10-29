@@ -1,12 +1,16 @@
 n = 15
 
+
 def fizzBuzz(n):
     for i in range(1, n+1):
         if i % 3 == 0 and i % 5 == 0:
-            print('Fizzbuzz')
+            print("Fizzbuzz")
         elif i % 3 == 0:
-            print('Fizz')
+            print("Fizz")
         elif i % 5 == 0:
-            print('Buzz')
+            print("Buzz")
         else:
             print(i)
+
+
+fizzBuzz(n)
